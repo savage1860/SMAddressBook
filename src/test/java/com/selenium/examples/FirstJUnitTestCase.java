@@ -1,5 +1,6 @@
 package com.selenium.examples;
 
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -13,11 +14,7 @@ public class FirstJUnitTestCase {
 	public static String loginPass;
 	public static DriverSelenium driverSelenium;
 	public static AddressBook addressBook;
-	
-	public static void main(String[] args) throws Exception {                    
-	       JUnitCore.main(
-	         "com.selenium.examples.FirstJUnitTestCase");            
-	}
+
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {

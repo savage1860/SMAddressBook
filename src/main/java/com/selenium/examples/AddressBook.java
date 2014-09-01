@@ -336,7 +336,7 @@ public class AddressBook {
 			popup = driverSelenium.getDriver().switchTo().window(windowHandle);
 			//String win = driver.getCurrentUrl();
 			//System.out.println(popup.getCurrentUrl());
-			// tttt
+			
 			  // Check (page loading too long)
 			  // It's posible to add counter for preventing overcycling
 			if (popup.getCurrentUrl().startsWith("https://www.surveymonkey.com/addressbook/popup/")) {
